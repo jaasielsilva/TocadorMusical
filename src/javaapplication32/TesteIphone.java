@@ -4,7 +4,7 @@ public class TesteIphone  {
 
     public static void main(String[] args) {
         Iphone iphone = new Iphone("iPhone 13", "Preto");
-
+    
         System.out.println(iphone);
         iphone.tocarMusica("Shape of You");
         iphone.pausarMusica();
